@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  margin: auto;
+  width: 1180px;
+}
+
+.heroLine {
+  position: relative;
+  top: 0px;
+  left: -30px;
+  width: 1240px;
+  overflow-y: auto;
+  height: 4px;
+  background-color: #f50;
+}
+
+.topNavigation {
+  position: fixed;
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationLogo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 20px;
+}
+
+.topNavigationButtons {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.topNavigationButtons * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  margin-left: 6px;
+}
+
+.signInButton {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  width: 76px;
+}
+
+.createAccountButton {
+  background-color: #f50;
+  color: white;
+  border-color: #f50;
+  border-style: solid;
+  border-radius: 5px;
+  width: 135px;
+}
+
+.forArtistsLink {
+  width: 76px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  z-index: -1;
+  top: 0px;
+  left: -30px;
+  overflow: auto;
+  background-image: url(./img/heroPicture.jpg);
+  background-repeat: no-repeat;
+  height: 465px;
+  width: 1240px;
+  box-shadow: 10px;
+  box-shadow: inset 0 120px 40px -40px rgba(5, 5, 5, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 540px;
+}
+
+.hero * {
+  margin-bottom: 8px;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.heroText {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.heroContentButton {
+  width: 210px;
+  height: 46px;
+  background-color: #f50;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #f50;
+  color: white;
+  padding: 0px, 10px;
+  margin-top: 20px;
+}
+
+.frontContentForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.frontContentFormUserInput {
+  display: flex;
+  width: 600px;
+  height: 46px;
+  margin-right: 20px;
+}
+
+.frontContentFormUserInput input {
+  width: 550px;
+  height: 46px;
+  background-color: #f2f2f2;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+input::placeholder {
+  font-size: 16px;
+  color: #999aa5;
+  padding: 5px 0px;
+}
+
+input {
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.frontContentFormUserInput button {
+  width: 50px;
+  height: 46px;
+  background-color: #f2f2f2;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-right: 15px;
+}
+
+.fa-magnifying-glass {
+  color: #5c5c63;
+}
+
+.frontContentFormButton {
+  width: 175px;
+  height: 46px;
+  background-color: #ff5500;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 13px 23px;
+  border-radius: 5px;
+}
+
+.frontContentForm p {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.trendingRows {
+  display: flex;
+  flex-direction: row;
+}
+
+.trendingSong {
+  margin: 10px;
+}
+
+.trendingRows img {
+  height: 180px;
+  width: 180px;
+}
+
+.trendingTracksTitle {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trendingTracksUploader {
+  margin-top: 2px;
+  color: #9f9f9f;
+  font-size: 12px;
+}
+
+.trendingTracksSong {
+  margin-top: 2px;
+  color: #333333;
+  font-size: 14px;
+}
